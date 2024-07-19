@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		737C087A2C4ACEBA0078A9F6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C08792C4ACEBA0078A9F6 /* MainView.swift */; };
+		737C087C2C4AE5220078A9F6 /* CasaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C087B2C4AE5220078A9F6 /* CasaView.swift */; };
+		737C087E2C4AE6EA0078A9F6 /* PannelliView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C087D2C4AE6EA0078A9F6 /* PannelliView.swift */; };
+		737C08802C4AE8F10078A9F6 /* CarbonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C087F2C4AE8F10078A9F6 /* CarbonView.swift */; };
 		73B606352C4AA1F500780AE8 /* SoleilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B606342C4AA1F500780AE8 /* SoleilApp.swift */; };
-		73B606372C4AA1F500780AE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B606362C4AA1F500780AE8 /* ContentView.swift */; };
+		73B606372C4AA1F500780AE8 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B606362C4AA1F500780AE8 /* DashboardView.swift */; };
 		73B606392C4AA1F700780AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B606382C4AA1F700780AE8 /* Assets.xcassets */; };
 		73B6063C2C4AA1F700780AE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B6063B2C4AA1F700780AE8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		737C08792C4ACEBA0078A9F6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		737C087B2C4AE5220078A9F6 /* CasaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasaView.swift; sourceTree = "<group>"; };
+		737C087D2C4AE6EA0078A9F6 /* PannelliView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PannelliView.swift; sourceTree = "<group>"; };
+		737C087F2C4AE8F10078A9F6 /* CarbonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonView.swift; sourceTree = "<group>"; };
 		73B606312C4AA1F500780AE8 /* Soleil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soleil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B606342C4AA1F500780AE8 /* SoleilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoleilApp.swift; sourceTree = "<group>"; };
-		73B606362C4AA1F500780AE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73B606362C4AA1F500780AE8 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		73B606382C4AA1F700780AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73B6063B2C4AA1F700780AE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +59,12 @@
 		73B606332C4AA1F500780AE8 /* Soleil */ = {
 			isa = PBXGroup;
 			children = (
+				737C087F2C4AE8F10078A9F6 /* CarbonView.swift */,
 				73B606342C4AA1F500780AE8 /* SoleilApp.swift */,
-				73B606362C4AA1F500780AE8 /* ContentView.swift */,
+				73B606362C4AA1F500780AE8 /* DashboardView.swift */,
+				737C087B2C4AE5220078A9F6 /* CasaView.swift */,
+				737C087D2C4AE6EA0078A9F6 /* PannelliView.swift */,
+				737C08792C4ACEBA0078A9F6 /* MainView.swift */,
 				73B606382C4AA1F700780AE8 /* Assets.xcassets */,
 				73B6063A2C4AA1F700780AE8 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B606372C4AA1F500780AE8 /* ContentView.swift in Sources */,
+				737C087C2C4AE5220078A9F6 /* CasaView.swift in Sources */,
+				73B606372C4AA1F500780AE8 /* DashboardView.swift in Sources */,
+				737C087E2C4AE6EA0078A9F6 /* PannelliView.swift in Sources */,
+				737C08802C4AE8F10078A9F6 /* CarbonView.swift in Sources */,
+				737C087A2C4ACEBA0078A9F6 /* MainView.swift in Sources */,
 				73B606352C4AA1F500780AE8 /* SoleilApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
