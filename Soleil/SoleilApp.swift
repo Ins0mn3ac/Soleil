@@ -11,7 +11,7 @@ import SwiftUI
 struct SoleilApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            ContentView()
         }
     }
 }
