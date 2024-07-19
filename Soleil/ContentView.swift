@@ -7,18 +7,32 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            ZStack{
+                Image("toprectangle")
+                    .position(x:180.5, y:94)
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                VStack(alignment: .leading){
+                    Group{
+                        Text("Ciao, ")
+                            .font(.custom("montserrat", size: 24))
+                        +
+                        Text("Anto!")
+                            .font(.custom("montserrat", size: 24))
+                            .bold()
+                            
+                    }.foregroundStyle(.white)
+                    Image("sol")
+                }
+            }
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    MainView()
 }
